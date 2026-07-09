@@ -1,5 +1,5 @@
 # 💫 About Me:
-Software Engineer in progress 🚀<br>Passionate about solving complex problems through code and building scalable applications.<br><br>• 1500+ LeetCode problems solved<br>• Competitive Programmer — CodeChef 3★ & Codeforces Specialist<br>• Skilled in Java, Golang, React, Node.js, MongoDB & PostgreSQL<br>• Strong understanding of DSA, OS, DBMS, CN & OOP<br>• Interested in Backend Engineering, Distributed Systems & AI-powered products<br><br>Currently focused on becoming a high-impact SDE while building real-world projects and continuously improving every day.<br>
+Software Engineer in progress 🚀<br>Passionate about solving complex problems through code and building scalable applications.<br><br>• 1600+ LeetCode problems solved<br>• Competitive Programmer — CodeChef 4★ & Codeforces Specialist<br>• Skilled in Java, Golang, React, Node.js, MongoDB & PostgreSQL<br>• Strong understanding of DSA, OS, DBMS, CN & OOP<br>• Interested in Backend Engineering, Distributed Systems & AI-powered products<br><br>Currently focused on becoming a high-impact SDE while building real-world projects and continuously improving every day.<br>
 
 
 ## 🌐 Socials:
