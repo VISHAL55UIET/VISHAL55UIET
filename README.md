@@ -56,7 +56,7 @@
 - **Stack:** `Java` • `Spring Boot` • `Spring Security` • `Spring AI` • `pgvector` • `PostgreSQL` • `OAuth2 / JWT`
 
 ### ⚙️ Tech Stack
-**Languages:** Java 21, Python, C++, Go, SQL, JavaScript/TypeScript  
+**Languages:** Java 21, Python, Go, SQL, JavaScript/TypeScript  
 **Backend & Distributed:** Spring Boot, Spring Security, Spring AI, Hibernate/JPA, REST APIs, WebSockets, Apache Kafka, Microservices  
 **Databases & Caching:** PostgreSQL (`pgvector`), MongoDB, Redis, MySQL  
 **DevOps & Tools:** Docker, Git, Maven, Linux, AWS, React
