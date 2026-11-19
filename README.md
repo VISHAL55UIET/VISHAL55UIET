@@ -28,14 +28,32 @@
 | **[spring-projects/spring-ai](https://github.com/spring-projects/spring-ai)** | MCP empty annotation title handling & streaming improvements | 🔄 Open |
 | **[codecentric/spring-boot-admin](https://github.com/codecentric/spring-boot-admin)** | Backend monitoring & administration enhancements | 🔄 Open |
 
----
-
 ### 🚀 Featured Systems
-- **[AI Revenue Recovery Engine](https://github.com/VISHAL55UIET/AIRevenueRecovery)** — Event-driven payment recovery system using Spring Boot, Kafka (Transactional Outbox), Saga orchestrator, Resilience4j & Spring AI.
-- **[TripSync](https://github.com/VISHAL55UIET)** — Real-time group travel planner & expense splitter built with Spring Boot, WebSockets, Redis, PostgreSQL & Razorpay.
-- **[Multi-Vendor E-Commerce Platform](https://github.com/VISHAL55UIET)** — Role-based commerce backend with OAuth2/JWT security and RAG-powered semantic product search (`pgvector`).
+
+#### 1. [AI Revenue Recovery Engine](https://github.com/VISHAL55UIET/AIRevenueRecovery) — *Autonomous Payment Failure Recovery*
+> Event-driven distributed backend that analyzes failed payment webhooks in real time and orchestrates intelligent retry workflows without duplicate charges.
+- **Distributed Reliability:** Implemented a **Transactional Outbox** publisher to **Apache Kafka** with idempotent webhook consumers to guarantee at-least-once event delivery and zero duplicate side effects.
+- **Fault-Tolerant Execution:** Built a **Saga-based recovery executor** protected by **Resilience4j** circuit breakers and rate limiters for downstream gateway calls.
+- **AI Decision Engine:** Integrated **Spring AI** to classify decline codes and dynamically select optimal retry intervals and recovery channels.
+- **Stack:** `Java 21` • `Spring Boot` • `Spring AI` • `Apache Kafka` • `PostgreSQL` • `Resilience4j` • `Docker`
 
 ---
+
+#### 2. [TripSync](https://github.com/VISHAL55UIET) — *Real-Time Collaborative Travel & Expense Platform*
+> Full-stack group itinerary planner and automated debt-simplification engine with live multi-user sync.
+- **Real-Time Collaboration:** Engineered low-latency itinerary updates and live group state synchronization over **Spring WebSockets (STOMP)**.
+- **Performance & Caching:** Reduced repeated itinerary and settlement read latency using **Redis** caching backed by normalized **PostgreSQL** schemas.
+- **AI & Payments:** Integrated **Gemini API** for automated day-by-day itinerary generation, **Razorpay** for instant peer settlements, and **JavaMailSender** for automated trip digests.
+- **Stack:** `Java` • `Spring Boot` • `WebSockets` • `Redis` • `PostgreSQL` • `React` • `Razorpay` • `Docker`
+
+---
+
+#### 3. [Multi-Vendor E-Commerce Platform](https://github.com/VISHAL55UIET) — *Role-Based Marketplace with Semantic RAG Search*
+> Scalable multi-tenant commerce backend supporting isolated Admin, Seller, and Customer workflows alongside vector-based product discovery.
+- **Hybrid Semantic Search:** Built a **Retrieval-Augmented Generation (RAG)** product search pipeline using **Spring AI** and **PostgreSQL (`pgvector`)** embeddings for natural-language catalog queries.
+- **Zero-Trust Auth & RBAC:** Implemented stateless **JWT** authentication, **Google OAuth2**, and **OTP** verification with granular role-based endpoint isolation.
+- **Order & Payment Lifecycle:** Designed transactional inventory locking, multi-seller order splitting, and end-to-end payment gateway checkout.
+- **Stack:** `Java` • `Spring Boot` • `Spring Security` • `Spring AI` • `pgvector` • `PostgreSQL` • `OAuth2 / JWT`
 
 ### ⚙️ Tech Stack
 **Languages:** Java 21, Python, C++, Go, SQL, JavaScript/TypeScript  
