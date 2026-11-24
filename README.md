@@ -30,7 +30,7 @@
 
 ### 🚀 Featured Systems
 
-#### 1. [AI Revenue Recovery Engine](https://github.com/VISHAL55UIET/AIRevenueRecovery) — *Autonomous Payment Failure Recovery*
+#### 1. [AI Revenue Recovery Engine](https://github.com/VISHAL55UIET/razorpay-builthon) — *Autonomous Payment Failure Recovery*
 > Event-driven distributed backend that analyzes failed payment webhooks in real time and orchestrates intelligent retry workflows without duplicate charges.
 - **Distributed Reliability:** Implemented a **Transactional Outbox** publisher to **Apache Kafka** with idempotent webhook consumers to guarantee at-least-once event delivery and zero duplicate side effects.
 - **Fault-Tolerant Execution:** Built a **Saga-based recovery executor** protected by **Resilience4j** circuit breakers and rate limiters for downstream gateway calls.
